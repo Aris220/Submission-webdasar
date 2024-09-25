@@ -1,0 +1,79 @@
+.container-economic-growth {
+  padding: 64px 16px;
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.content-economic-growth {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.economic-growth-image-economic-growth {
+  flex: 1;
+  display: flex;
+}
+.economic-growth-image-economic-growth img {
+  width: 500px;
+  min-width: 250px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.text-content-economic-growth {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+.highlight-economic-growth {
+  color: #00df9a;
+  font-weight: bold;
+}
+
+.h1-economic-growth {
+  font-size: 2.5rem;
+  margin: 16px 0;
+}
+
+.p-economic-growth {
+  margin: 16px 0;
+}
+
+.button-economic-growth {
+  background-color: black;
+  color: #00df9a;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-weight: medium;
+  cursor: pointer;
+  margin: 24px auto;
+  transition: background-color 0.3s;
+}
+
+.button-economic-growth:hover {
+  background-color: #d9dedb; /* Darker background on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .content-economic-growth {
+    flex-direction: column; /* Mengubah arah flex menjadi kolom */
+  }
+  .economic-growth-image-economic-growth {
+    order: -1; /* Memastikan gambar di atas */
+    width: 100%; /* Memastikan lebar penuh untuk gambar */
+  }
+  .text-content-economic-growth {
+    order: 1; /* Konten teks berada di bawah gambar */
+  }
+}

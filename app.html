@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission Dicoding</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="Components/Navbar/Navbar.css" />
+    <link rel="stylesheet" href="Components/Data/Data.css" />
+    <link rel="stylesheet" href="Components/analytics/analytics.css" />
+    <link
+      rel="stylesheet"
+      href="Components/economi-growth/economi-growth.css"
+    />
+    <link rel="stylesheet" href="Components/NewsLatter/newsLatter.css" />
+    <link rel="stylesheet" href="Components/Cards/Cards.css" />
+    <link rel="stylesheet" href="Components/Sosial-media/sosial-media.css" />
+    <link rel="stylesheet" href="Components/Footer/footer.css" />
+
+    <!-- link js -->
+    <script src="Components/Navbar/scriptNavbar.js" defer></script>
+    <script src="Components/Data/scriptData.js " defer></script>
+    <script src="Components/Analytics/scriptAnalytics.js" defer></script>
+    <script src="Components/Economi-growth/economi-growth.js" defer></script>
+    <script src="Components/Cards/scriptCards.js " defer></script>
+    <script src="Components/NewsLatter/newsLatter.js" defer></script>
+
+    <!-- link jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- link font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- link font googleapis -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sansita&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- <h1 class="logo">Data <i class="fa-solid fa-chart-line"></i></h1> -->
+        <h1 class="logo">
+          Data <i class="fa-solid fa-square-poll-vertical"></i>
+        </h1>
+
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Info</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- <div class="menu-toggle">
+          <span class="menu-icon"><i class="fa-solid fa-bars"></i></span>
+          <span class="close-icon" style="display: none"
+            ><i class="fa-solid fa-xmark"></i
+          ></span>
+        </div> -->
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="mobile-nav">
+          <h1 class="logo">
+            Data <i class="fa-solid fa-square-poll-vertical"></i>
+          </h1>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Info</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <article class="data">
+          <div class="container">
+            <p class="highlight">Grow with Data Analytics.</p>
+            <h1 class="text-large-1">Grow with data Unlock Insights.</h1>
+            <div class="highlight-2">
+              <p class="text-large-2">
+                Fast, flexible financing for
+                <span class="typed" id="typed"></span>
+              </p>
+            </div>
+            <p class="description">
+              Monitor your data analytics to increase revenue for BTB, BTC, SASS
+              & STOCK platforms
+            </p>
+            <button class="button">Get Started</button>
+          </div>
+        </article>
+        <article class="analytics">
+          <div class="container-analytics">
+            <div class="content-analytics">
+              <div class="laptop-image-analytics">
+                <img src="Assets/laptop.jpg" alt="Laptop" />
+              </div>
+              <div class="text-content-analytics">
+                <p class="highlight-analytics">DATA ANALYTICS DASHBOARD</p>
+                <h1 class="h1-analytics">Manage Data Analytics Centrally</h1>
+                <p class="p-analytics">
+                  Manage Data Analytics Centrally refers to the approach of
+                  overseeing and analyzing data from a centralized control
+                  point. In this method, data from various sources and
+                  departments is collected, stored, and analyzed in one place.
+                  The goal is to enhance efficiency, consistency, and accuracy
+                  in decision-making. Centralized data management allows
+                  organizations to optimize resources, minimize redundancy, and
+                  gain more comprehensive and integrated insights. This approach
+                  also facilitates better data quality control and more
+                  strategic, in-depth analysis.
+                </p>
+                <button class="button-analytics">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="economic-growth">
+          <div class="container-economic-growth">
+            <div class="content-economic-growth">
+              <div class="text-content-economic-growth">
+                <p class="highlight-economic-growth">DATA ANALYTICS MARKET</p>
+                <h1 class="h1-economic-growth">
+                  Manage Data On Economic Growth.
+                </h1>
+                <p class="p-economic-growth">
+                  Economic growth is measured by GDP, which indicates the total
+                  value of goods and services produced. A 5% increase in GDP
+                  suggests a thriving economy, while a 10% rise in investment
+                  reflects strong investor confidence. Additionally, a declining
+                  unemployment rate to 4% shows more people are finding jobs,
+                  boosting consumer spending. Together, these indicators help us
+                  understand the overall health of the economy and highlight
+                  areas for potential growth or concern.
+                </p>
+                <button class="button-economic-growth">Get Started</button>
+              </div>
+              <div class="economic-growth-image-economic-growth">
+                <img src="Assets/economic-growth.jpeg" alt="Laptop" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="newsletter">
+          <div class="newsletter-container">
+            <div class="newsletter-content">
+              <div class="newsletter-text">
+                <h1>Want tips & tricks to optimize your flow</h1>
+                <p>Sign up to our newsletter and stay up to date</p>
+              </div>
+              <div class="newsletter-form">
+                <div class="form-group">
+                  <input
+                    class="email-input"
+                    type="email"
+                    placeholder="Enter Email"
+                  />
+                  <button class="notify-button">Notify Me</button>
+                </div>
+                <p>
+                  We care about the protection of your data. Read our
+                  <span class="privacy-policy">Privacy Policy.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="cardsa">
+          <div class="container-cards">
+            <div class="cards">
+              <div class="card">
+                <img
+                  class="card-img"
+                  src="assets/single.png"
+                  alt="Single User"
+                />
+                <h2 class="card-title">Single User</h2>
+                <p class="card-price">$149</p>
+                <div class="card-details">
+                  <p class="p-card">500 GB Storage</p>
+                  <p class="p-card">1 Granted User</p>
+                  <p class="p-card">Send up to 2GB</p>
+                </div>
+                <button class="card-button">Start Trial</button>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card-img"
+                  src="assets/double.png"
+                  alt="Double User"
+                />
+                <h2 class="card-title">Double User</h2>
+                <p class="card-price">$200</p>
+                <div class="card-details">
+                  <p class="p-card">700 GB Storage</p>
+                  <p class="p-card">2 Granted Users</p>
+                  <p class="p-card">Send up to 4GB</p>
+                </div>
+                <button class="card-button">Start Trial</button>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card-img"
+                  src="assets/triple.png"
+                  alt="Triple User"
+                />
+                <h2 class="card-title">Triple User</h2>
+                <p class="card-price">$299</p>
+                <div class="card-details">
+                  <p class="p-card">1 TB Storage</p>
+                  <p class="p-card">3 Granted Users</p>
+                  <p class="p-card">Send up to 6GB</p>
+                </div>
+                <button class="card-button">Start Trial</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <aside>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h1 class="footer-title">Manage Data On Economic</h1>
+          <p class="footer-description">
+            "Manage Data on Economic is a powerful application designed to
+            streamline the analysis and visualization of economic data. It
+            enables users to easily collect, organize, and interpret various
+            economic metrics, helping businesses and researchers make informed
+            decisions based on real-time insights."
+          </p>
+          <div class="social-icons">
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h6>Solution</h6>
+            <ul>
+              <li>Analytics</li>
+              <li>Marketing</li>
+              <li>Commerce</li>
+              <li>Insights</li>
+            </ul>
+          </div>
+          <div>
+            <h6>Support</h6>
+            <ul>
+              <li>Pricing</li>
+              <li>Documentation</li>
+              <li>Guides</li>
+              <li>API Status</li>
+            </ul>
+          </div>
+          <div>
+            <h6>Company</h6>
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div>
+            <h6>Legal</h6>
+            <ul>
+              <li>Claim</li>
+              <li>Policy</li>
+              <li>Terms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

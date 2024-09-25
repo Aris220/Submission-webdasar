@@ -1,0 +1,80 @@
+.newsletter-container {
+  padding: 4rem 1rem;
+  display: flex;
+  width: 90%; /* Vertical padding */
+}
+
+.newsletter-content {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-text {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem; /* Base font size */
+}
+
+p {
+  margin: 0.5rem 0; /* Margin for paragraph */
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between; /* Adjusts spacing between cards */
+  flex-wrap: nowrap; /* Stack on mobile */
+}
+
+.email-input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem; /* Space below input */
+  width: 60%;
+  font-size: 1rem; /* Font size for input */
+}
+
+.notify-button {
+  width: 30%;
+  height: 30%;
+  background-color: #00df9a;
+  color: black;
+  border: none;
+  border-radius: 5px;
+
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notify-button:hover {
+  background-color: #333; /* Darker background on hover */
+}
+
+.privacy-policy {
+  color: #00df9a;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .newsletter-container {
+    width: 100%; /* Vertical padding */
+  }
+  .form-group {
+    flex-direction: column;
+  }
+  .notify-button {
+    margin-top: 10px; /* More space on mobile */
+    width: 88%; /* Optional: make it wider on mobile */
+  }
+
+  .email-input {
+    width: 80%; /* Optional: make input wider on mobile */
+  }
+}
