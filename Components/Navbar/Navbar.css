@@ -9,11 +9,15 @@
 }
 
 .logo {
+  color: #00df9a;
+}
+.logo a {
   .sansita-regular {
     font-family: "Sansita", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+  text-decoration: none;
   font-size: 30px;
   color: #00df9a;
 }
@@ -68,6 +72,9 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
+  .logo {
+    font-size: 1.5rem;
+  }
   .nav-links {
     display: none; /* Hide links on mobile */
   }
@@ -77,6 +84,8 @@
   }
 
   .mobile-nav.active {
-    left: 0; /* Show mobile nav */
+    left: 0;
+    position: fixed;
+    z-index: 1000;
   }
 }
